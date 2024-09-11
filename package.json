@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/24-25Sem1-Courses/ct313hm01-contactbook-api-hectorDB01/issues"
   },
-  "homepage": "https://github.com/24-25Sem1-Courses/ct313hm01-contactbook-api-hectorDB01#readme"
+  "homepage": "https://github.com/24-25Sem1-Courses/ct313hm01-contactbook-api-hectorDB01#readme",
+  "devDependencies": {
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3"
+  }
 }

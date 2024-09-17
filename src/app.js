@@ -1,6 +1,6 @@
 const express = require('express')
 const cors = require('cors')
-
+// console.log(__dirname)
 const JSend=require('./jsend')
 const contactsRouter = require('./routes/contacts.router');
 
@@ -9,7 +9,7 @@ const {
     handleError,
 } = require('./controllers/errors.controller')
 
-const {specs, swaggerUi} = require('./docs/swagger')
+const { specs, swaggerUi } = require('./docs/swagger')
 
 const app = express()
 
